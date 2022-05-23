@@ -16,6 +16,7 @@ public class Tijdspanne {
      */
     public void bijTellen(Tijdspanne andere) {
         //TODO implement
+        this.minuten+= andere.getMinuten();
     }
 }
 /** onthoudt een tijdspanne als een aantal minuten en seconden */
